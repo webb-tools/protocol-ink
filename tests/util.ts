@@ -1,4 +1,5 @@
 import { ChildProcess, spawn } from "child_process";
+import exp from "constants";
 
 const substrateContractNodePath = "./substrate-contracts-node";
 export async function startContractNode() {
