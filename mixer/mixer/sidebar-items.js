@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["ERROR_MSG",""],["ROOT_HISTORY_SIZE",""]],"enum":[["Error","The mixer error types."],["__ink_EventBase",""]],"struct":[["Deposit",""],["Mixer",""],["MixerRef",""],["Withdraw",""],["WithdrawParams",""]],"type":[["Result","The mixer result type."]]});

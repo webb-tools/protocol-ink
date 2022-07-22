@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["mixer_verifier"] = [{"text":"impl FromStatusCode for <a class=\"enum\" href=\"mixer_verifier/enum.VerifyProofErr.html\" title=\"enum mixer_verifier::VerifyProofErr\">VerifyProofErr</a>","synthetic":false,"types":["mixer_verifier::VerifyProofErr"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

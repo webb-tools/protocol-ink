@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Error","The verifier error types."]],"struct":[["VAnchorVerifier",""],["VAnchorVerifierRef",""]],"type":[["Result","The verifier result type."]]});

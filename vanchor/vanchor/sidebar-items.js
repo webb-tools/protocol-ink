@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["ERROR_MSG",""],["INK_CHAIN_TYPE",""]],"enum":[["Error","The vanchor error types."],["__ink_EventBase",""]],"struct":[["ExtData",""],["ProofData",""],["TokenWrapperData",""],["TransactDeposit",""],["TransactWithdraw",""],["VAnchor",""],["VAnchorRef",""]],"type":[["Result","The vanchor result type."]]});

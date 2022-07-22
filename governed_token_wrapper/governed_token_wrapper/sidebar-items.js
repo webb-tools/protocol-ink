@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["ERROR_MSG",""]],"enum":[["Error","The token wrapper error types."],["__ink_EventBase",""]],"struct":[["GovernedTokenWrapper","The contract storage"],["GovernedTokenWrapperRef","The contract storage"],["Unwrap",""],["Wrap",""]],"type":[["Result","The vanchor result type."]]});

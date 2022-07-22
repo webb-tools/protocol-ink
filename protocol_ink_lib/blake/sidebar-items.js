@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["blake2b_256_4_bytes_output","Returns the 4 byte BLAKE-2b 256-bit hash of an input"]]});

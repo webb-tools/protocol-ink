@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["governed_token_wrapper"] = [{"text":"impl PSP22 for <a class=\"struct\" href=\"governed_token_wrapper/governed_token_wrapper/struct.GovernedTokenWrapper.html\" title=\"struct governed_token_wrapper::governed_token_wrapper::GovernedTokenWrapper\">GovernedTokenWrapper</a>","synthetic":false,"types":["governed_token_wrapper::governed_token_wrapper::GovernedTokenWrapper"]}];
+implementors["vanchor"] = [{"text":"impl PSP22 for <a class=\"struct\" href=\"vanchor/vanchor/struct.VAnchor.html\" title=\"struct vanchor::vanchor::VAnchor\">VAnchor</a>","synthetic":false,"types":["vanchor::vanchor::VAnchor"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

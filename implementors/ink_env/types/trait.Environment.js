@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["mixer_verifier"] = [{"text":"impl Environment for <a class=\"enum\" href=\"mixer_verifier/enum.CustomEnvironment.html\" title=\"enum mixer_verifier::CustomEnvironment\">CustomEnvironment</a>","synthetic":false,"types":["mixer_verifier::CustomEnvironment"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["governed_token_wrapper",""]]});
