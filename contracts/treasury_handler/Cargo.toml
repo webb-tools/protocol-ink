@@ -1,5 +1,5 @@
 [package]
-name = "treasury"
+name = "treasury_handler"
 version = "0.1.0"
 authors = ["Webb Developers"]
 edition = "2021"
@@ -15,18 +15,16 @@ ink_prelude = { tag = "v3.0.1", git = "https://github.com/paritytech/ink", defau
 scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive"] }
 scale-info = { version = "2", default-features = false, features = ["derive"], optional = true }
 
-# Brush dependency
-brush = { tag = "v1.6.1", git = "https://github.com/Supercolony-net/openbrush-contracts", default-features = false, features = ["psp22"] }
+treasury = { path = "../treasury", default-features = false, features = ["ink-as-dependency"] }
+
 protocol-ink-lib = {path = "../../protocol-ink-lib"}
 
-
 [lib]
-name = "treasury"
+name = "treasury_handler"
 path = "lib.rs"
 crate-type = [
 	# Used for normal contract Wasm blobs.
 	"cdylib",
-    "rlib",
 ]
 
 [features]
@@ -39,7 +37,7 @@ std = [
     "scale/std",
     "scale-info/std",
 
-    "brush/std",
-
+    "treasury/std",
 ]
 ink-as-dependency = []
+

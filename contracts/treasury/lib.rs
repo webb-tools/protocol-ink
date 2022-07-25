@@ -2,8 +2,16 @@
 
 mod tests;
 
+pub use crate::treasury::{Treasury, TreasuryRef};
+use ink_env::call::FromAccountId;
 use ink_lang as ink;
+use ink_storage::traits::SpreadAllocate;
 
+impl SpreadAllocate for TreasuryRef {
+    fn allocate_spread(_ptr: &mut ink_primitives::KeyPtr) -> Self {
+        FromAccountId::from_account_id([0; 32].into())
+    }
+}
 #[ink::contract]
 mod treasury {
     use brush::contracts::psp22::*;
